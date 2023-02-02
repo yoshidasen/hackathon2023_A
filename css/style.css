@@ -229,6 +229,24 @@ html {
 }
 
 @media(max-width: 600px) {
+/* index */
+.top_recipe h1 {
+  font-size: 95%;
+}
+
+.top_recipe p{
+  font-size: 73%;
+}
+
+.top_recipe_item h4 {
+  font-size: 65%;
+}
+
+.top_button {
+  font-size     : 80%; 
+}
+
+/*farmer*/
   .farmer_balloon,
   .farmer_balloon:before,
   .farmer_balloon:after,
@@ -273,7 +291,7 @@ html {
     font-size: 200%;
   }
 
-/*hukidasi*/
+  /*hukidasi*/
   .farmer_coment {
     justify-content: center;
     align-items: center;
@@ -320,5 +338,33 @@ html {
     padding: 0;
   }
 /*-------------*/
+/* footer */
+footer {
+  height: 50%;
+  padding-top: 10%;
+  padding-left: 5%;
+}
 
+.footer_link {
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+.footer_link p {
+  font-size: 150%;
+  padding-bottom: 3%;
+}
+
+.footer li {
+  padding-bottom: 3%;
+}
+
+.footer a {
+  font-size: 80%;
+}
+
+footer small {
+  font-size: 100%;
+  text-align: center;
+} 
 }
