@@ -1,0 +1,470 @@
+html{
+  scroll-behavior: smooth;
+  }
+  
+body{
+  background-color:#E8D98A;
+}
+
+.fade-in {
+  opacity: 0;
+  transition-duration: 0.8s;
+  transition-property: opacity, transform;
+}
+
+.fade-in-down {
+  transform: translate(0, -80px);
+}
+
+
+.scroll-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.fade-in-left {
+  transform: translate(50px, 0);
+}
+
+.fade-in-right {
+  transform: translate(50px, 0);
+}
+
+/*========== TOPへ戻るボタン ===========*/
+.page_top_btn {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  padding: 1.2%;
+  padding-top: 2%;
+  height: 10%;
+  text-align: center;
+  background: white;
+  color: #633B3B;
+  transition: 0.3s;
+  text-decoration: none;
+  border-radius: 50%;
+  border: #633B3B 1px solid;
+  border-bottom: #633B3B 3px solid;
+}
+.page_top_btn:hover{
+  background-color: #CCDB51;
+  transition: 0.2s;
+  border-bottom: #633B3B 1px solid;
+}
+
+/*================= TOPから目次のところまで ==================*/
+#about{
+    margin: 0 5%;
+}
+#about .about_title,#about .about_index,#about ul li a,#about .about_h2,#about .about_h3,#about .about_p ,#about .about_name{
+    color: #633B3B;
+    text-decoration: none;
+}
+
+/* ページタイトル～目次まで */
+#about .about{
+    margin-top: 5%;
+}
+
+#about .about ul{
+    padding:5%;
+    background-color: #F5E2C9;
+    border:2px solid  #633B3B;
+    /* box-shadow: #633B3B; */
+    border-radius: 30px;
+}
+
+#about .about ul li a{
+    line-height: 50px;
+    font-size:1.2rem;
+}
+#about .about ul li a:hover{
+    /* border-bottom: 1px solid #633B3B; */
+    background-color:#CCDB51;
+    /* border-bottom: #fff 1px solid; */
+    transition: 0.5s;
+}
+
+#about .about .about_title{
+    font-size: 2rem;
+}
+#about .about .moyappi{
+    text-align: right;
+    margin-top: -15%;
+    margin-right: 2%;
+}
+#about .about .moyappi img{
+    width: 150px;
+    height: 150px;
+    border: #633B3B 3px dashed;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 30% 0%;
+}
+#about .about .moyappi img:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+#about .about .about_moyappi{
+    text-align: right;
+    margin-right: 4%;
+
+}
+/*============== ポップアップの設定 ==================*/
+.popup {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .content {
+    opacity: 0.9;
+    background:#fff;
+    border:1.5px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 75%;
+    line-height: 30px;
+  }
+  .content .moyappi_p{
+    background: #fff;
+    border: 1px solid #633B3B;
+    padding: 90px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 2rem;
+    line-height: 3rem;
+    /* border-bottom: #633B3B 1px dashed; */
+  }
+  .show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #close{
+    text-align: center;
+    background-color: #CCDB51;
+    border-radius: 30px;
+    padding:0 20%;
+    border-bottom:2px #633B3B solid;
+
+  }
+  #close:hover{
+    background-color:#633B3B; 
+    border:none;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+  /*=================== もやしについて =================*/
+#about .about .about_h2{
+    font-size: 40px;
+    margin-top: 10%;
+}
+#about .about .about_flex{
+    display: flex;
+    border-radius: 15px;
+}
+#about .about .about_flex div {
+    margin-left: 6px;
+}
+#about .about .about_flex div .about_name{
+    font-size: 25px;
+    background-color: #CCDB51;
+    color: #633B3B;
+    text-align: center;
+}
+#about .about .about_flex div div{
+    font-size: 20px;
+    background-color: #fff;
+    /* border-bottom: 2px dashed #F5E2C9; */
+    margin-left: 20px;
+}
+#about .about .about_flex div div .about_p{
+    padding: 0 2%;
+    margin-bottom: 10px;
+    margin-left: 30px;
+
+}
+
+/*====================== もやしの栄養素 ============*/
+#about .about #about_nutrients{
+    margin-top: 10%;
+}
+#about .about .about_h3{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+#about .about .flex{
+    display: flex;
+    margin-top: 30px;
+}
+#about .about .about_p{
+    margin-top: 2%;
+    font-size: 1.25rem;
+    text-indent: 1.25rem;
+}
+.graph_flex{
+  display: flex;
+}
+.graph_flex div{
+  width: 100%;
+  margin-right: 1%;
+}
+
+
+.back_color{
+  background-color: #F5E2C9;
+  padding: 1%;
+}
+
+.h3{
+  margin-top: 3%;
+  font-size: 1.5rem;
+  border-bottom: 3px solid #fff;
+ color: #633B3B; 
+ font-weight: bold;
+}
+.moyashi{
+  text-align: right;
+  margin-right: 5%;
+  top:0;
+}
+
+.moyashi .moyashi_moyappi{
+  width: 150px;
+  height: 150px;
+  border: #633B3B 2px solid;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 30% 0%;
+}
+.graph{
+    width: 100%;
+    border: 1px solid #633B3B;
+    background-color: #fff;
+}
+.bar{
+    max-width: 600px;
+    width: 100%;
+    margin: 2% 0%;
+    color: #633B3B;
+    padding: 0.2em;
+    animation: bar-animation 1 2s;
+    background: #CCDB51;
+  }
+  
+  .bar1{
+    max-width: 80%;
+  }
+  .bar2{
+    max-width: 50%;
+  }
+  .bar3{
+    max-width: 46%;
+  }
+  .bar4{
+    max-width: 5.9%;
+  }
+  .bar5{
+    max-width: 21%;
+  }
+  .bar6{
+    max-width: 12%;
+  }
+  .bar7{
+    max-width: 43%;
+  }
+/* カルシウム */
+  .bar11{
+    max-width: 50%;
+  }
+  .bar12{
+    max-width: 30%;
+  }
+  .bar13{
+    max-width: 20%;
+  }
+/* ビタミンC */
+  .bar21{
+    max-width: 25%;
+  }
+  .bar22{
+    max-width: 50%;
+  }
+  .bar23{
+    max-width: 40%;
+  }
+
+  /* 食物繊維 */
+
+  .bar31{
+    max-width: 60%;
+  }
+  .bar32{
+    max-width: 40%;
+  }
+  .bar33{
+    max-width: 30%;
+  }
+
+  /* ビタミンB1 */
+  .bar41{
+    max-width: 40%;
+  }
+  .bar42{
+    max-width: 30%;
+  }
+  .bar43{
+    max-width: 30%;
+  }
+  span{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    
+  }
+  @keyframes bar-animation{
+    0%{
+      width: 0px;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+
+  /*================= もやし生産過程 =============*/
+  .make{
+    margin-bottom: 10%;
+  }
+  .make_flex{
+    margin-left: 10%;
+    display: flex;
+  }
+  .make_flex .image{
+    margin-right: 10%;
+  }
+  .make_flex .image img{
+    width: 35vw;
+    margin-left: 20%;
+    border-radius: 30px;
+  }
+  .make .make_h3{
+    margin-left: 8%;
+    color: #633B3B;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .make_flex .make_p{
+    max-width: 500px;
+    height: 100%;
+    padding:3%;
+    background-color: #fff;
+    /* border: 2px solid #633B3B; */
+    border-radius: 10px;
+    font-size: 125%;
+    color: #633B3B;
+  }
+  .yajirushi{
+    text-align: center;
+  }
+
+  /*===================== 個性の強いもやし ==================*/
+  .about #about_unique{
+    margin-left: 5%;
+    font-weight: bold;
+  }
+  .about .unique_flex{
+    display: flex;
+    margin:-2.5% 2% 2% 2%;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .about .unique_flex .unique_moyashi1{
+    margin:3%;
+    color: #633B3B;
+    /* font-size: 120%; */
+  }
+  .about .unique_flex div .unique_h3{
+    background-color: #CCDB51;
+    padding-left: 3%;
+    font-size: 1.5rem;
+  }
+  .about .unique_flex div .unique_p{
+    margin-top: 10%;
+    font-size: 1.2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .about .unique_flex div img{
+    padding: 10%;
+    width: 100%;
+  }
+  .about .unique_flex .unique_moyashi2{
+    margin:3%;
+    color: #633B3B;
+  }
+  .about .unique_flex .unique_moyashi2 img{
+    margin-bottom: 20%;
+  }
+  .about .unique_flex div .unique_a{
+    text-align: center;
+    width: 100%;
+  }
+  .about .unique_flex div .unique_a a{
+    background-color: #CCDB51;
+    padding:2% 10%;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #633B3B;
+    font-weight: bold;
+  } 
+  .about .unique_flex div.unique_a a:hover{
+    opacity: 0.8;
+    /* color: #fff; */
+    transition: 0.5s;
+  }
+  /*================ footer =============*/
+footer {
+  background-color: #F2D6B3;
+  text-align: center;
+  height: 670px;
+  padding-top: 101px;
+  padding-left: 81px;
+  color: #633B3B;
+}
+
+.footer_link {
+  text-align: left;
+  padding-bottom: 94px;
+}
+footer .footer_link .a{
+  font-size: 2rem;
+}
+.footer_link p {
+  font-size: 62px;
+  padding-bottom: 34px;
+}
+
+.footer li {
+  list-style: none;
+  padding-bottom: 34px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #633B3B;
+  font-size: 141.5%;
+}
+
+footer small {
+  font-size: 180%;
+  text-align: center;
+} 

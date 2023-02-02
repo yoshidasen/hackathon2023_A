@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>もやしサイト</title>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="node_modules/ress/ress.css">
+    <link rel="stylesheet" href="css/about_style.css">
+
+</head>
+<body>
+    <!-- <header>
+        <nav>
+            <div class="nav_title"></div>
+            <div class="nav_link"><a href="about.html">もやしについて</a><a href="recipe.html">もやしのレシピ</a><a href="farmer.html">農家の現状</a></div>
+        </nav>
+    </header> -->
+    <main id="about">
+        <a href="#" class="page_top_btn">▲TOP</a>
+        <section class="about">
+            <div class="about_title">もやしについて</div>
+            <ul>
+                <div class="about_index">目次</div>
+
+                <li><a href="#about_ab">もやしの種類</a></li>
+                <li><a href="#about_nutrients">もやしに含まれる栄養素</a></li>
+                <li><a href="#about_make">もやしの生産過程</a></li>
+                <li><a href="#about_unique">個性の強い珍しいもやしを紹介！</a></li>
+            </ul>
+            <div class="moyappi"><img class="moyappi_img" src="images/moyappi.jpg" alt="もやっぴーのアイコン"></div>
+            <div class="about_moyappi">もやっぴー</div>
+            <div class="popup">
+                <div class="content">
+                    <div class="moyappi_p">
+                        もやっぴーは<span>大鰐町のゆるキャラ</span> <br> 名前の由来は<span>『もやしを食べてみんなハッピー！』</span>から。<br>誕生日は<span>11月11日</span>の<span>『もやしの日』</span>だよ！<br>誰が何と言おうと『もやしの日』だよ！
+                    </div>
+                    <div id="close"><a class="close">閉じる</a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====もやしの種類について====== -->
+        <section class="about">
+            <div id="about_ab" class="about_h2">知ってた？もやしの種類</div>
+            <div class="about_flex">
+                <div>
+                    <div class="about_name">緑豆もやし</div>
+                    <div class="about_seisan">
+                        <div class="about_h3">◯主な生産国</div>
+                        <div class="about_p">中国、ミャンマー等</div>
+                    </div>
+                    <div class="about_tokutyo">
+                        <div class="about_h3">◯特徴</div>
+                        <div class="about_p">国内では約9割を占める。やや太めで癖のない味。</div>
+                    </div>
+                    <div class="about_tyourihou">
+                        <div class="about_h3">◯主な調理法</div>
+                        <div class="about_p">炒め物、鍋、ラーメン等</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="about_name">ブラックマッペもやし(黒豆もやし)</div>
+                    <div class="about_seisan">
+                        <div class="about_h3">◯主な生産国</div>
+                        <div class="about_p">ミャンマー、タイ等</div>
+                    </div>
+                    <div class="about_tokutyo">
+                        <div class="about_h3">◯特徴</div>
+                        <div class="about_p">やや細めで、ほのかな甘味。しっかりした食感が好まれる。</div>
+                    </div>
+                    <div class="about_tyourihou">
+                        <div class="about_h3">◯主な調理法</div>
+                        <div class="about_p">ラーメン、焼きそば、お好み焼き、おひたし等</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="about_name">大豆もやし</div>
+                    <div class="about_seisan">
+                        <div class="about_h3">◯主な生産国</div>
+                        <div class="about_p">アメリカ、カナダ、中国等</div>
+                    </div>
+                    <div class="about_tokutyo">
+                        <div class="about_h3">◯特徴</div>
+                        <div class="about_p">まめが付いたままで食される。独特の味と食感が根強い人気。</div>
+                    </div>
+                    <div class="about_tyourihou">
+                        <div class="about_h3">◯主な調理法</div>
+                        <div class="about_p">炒め物、ナムル、スープ等</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- もやしの要素 -->
+        <section class="about">
+            <div id="about_nutrients" class="about_h2 fade-in fade-in-down">おいしー・ヘルシー・もやしー</div>
+
+            <div class="h3 fade-in fade-in-down">実は、もやしはアスパラギン酸が豊富！</div>
+            <div class="about_p fade-in fade-in-down">
+                アスパラギン酸は、アスパラギン酸アミノ酸の一つで、<span>スタミナをつけたり疲労を回復させる効果</span>があります。<br>
+                他のどの野菜よりも多くアスパラギン酸が含まれていることが下のグラフで分かるね！<br><span>もやしは最強！もやしを食べて疲労回復しよう！</span>
+            </div>
+            <!-- グラフ -->
+            <div class="graph fade-in fade-in-down">
+                <div class="bar bar1">大豆もやし</div>
+                <div class="bar bar2">黒豆もやし</div>
+                <div class="bar bar3">緑豆もやし</div>
+                <div class="bar bar4">きゅうり</div>
+                <div class="bar bar5">ほうれん草</div>
+                <div class="bar bar6">キャベツ</div>
+                <div class="bar bar7">アスパラガス</div>
+            </div>
+            <div>
+                <div class="h3">栄養がたくさん入っている！！</div>
+                <div class="back_color">
+                <div class="about_p">もやしには疲労回復効果を持つアスパラギン酸の他にもカルシウムやビタミンCなど様々な栄養素が含まれているよ！グラフで説明するね！</div>
+                <div class="moyashi"><img class="moyashi_moyappi" src="images/moyappi.jpg" alt=""></div>
+                </div>
+            </div>
+            
+            <div class="graph_flex">
+                <div>
+                    <div class="h3 fade-in fade-in-down">カルシウム</div>
+                    <div class="about_p fade-in fade-in-down">カルシウムはの<span>細胞の分裂分化、筋肉収縮、神経興奮の抑制、血液凝固作用の促進</span>などの効果があるよ。そんなカルシウムが、大豆もやしには<span>23㎎</span>、黒豆もやしには<span>16㎎</span>、緑豆もやしには<span>10㎎</span>含まれているゾ！</div>
+                    <!-- グラフ -->
+                    <div class="graph fade-in fade-in-down">
+                        <div class="bar bar11">大豆もやし</div>
+                        <div class="bar bar12">黒豆もやし</div>
+                        <div class="bar bar13">緑豆もやし</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="h3 fade-in fade-in-down">ビタミンC</div>
+                    <div class="about_p fade-in fade-in-down">ビタミンCは<span>抗酸化作用による癌の予防・心臓血管系疾患の予防や、免疫力向上による風邪予防、植物性鉄の吸収促進作用</span>などさまざまな働きがあるよ！<br>大豆もやしには<span>5㎎</span>、黒豆もやしには<span>10㎎</span>、緑豆もやしには<span>8㎎</span>含まれているんだ！</div>
+                    <!-- グラフ -->
+                    <div class="graph fade-in fade-in-down">
+                        <div class="bar bar21">大豆もやし</div>
+                        <div class="bar bar22">黒豆もやし</div>
+                        <div class="bar bar23">緑豆もやし</div>
+                    </div>
+                </div>
+            </div>
+            <div class="graph_flex">
+                <div>
+                    <div class="h3 fade-in fade-in-down">食物繊維</div>
+                    <div class="about_p fade-in fade-in-down">食物繊維は<span>便秘の予防をはじめとする整腸効果だけでなく、血糖値上昇の抑制、血液中のコレステロール濃度の低下</span>などの役割を担っているよ！大豆もやしには<sapn>2.3g</sapn>、黒豆もやしには<span>1.5g</span>、緑豆もやしには<span>1.3g</span>の食物繊維が入ってるよ！！
+                    </div>
+                    <!-- グラフ -->
+                    <div class="graph fade-in fade-in-down">
+                        <div class="bar bar31">大豆もやし</div>
+                        <div class="bar bar32">黒豆もやし</div>
+                        <div class="bar bar33">緑豆もやし</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="h3 fade-in fade-in-down">ビタミンB1</div>
+                    <div class="about_p fade-in fade-in-down">ビタミンB1は<span>糖質代謝をサポートするビタミン</span>だよ。炭水化物などの糖質をエネルギーに変えてくれるよ！大豆もやしには<span>0.09㎎</span>、黒豆もやしと緑豆もやしには<span>0.04㎎</span>含まれているよ！
+                    </div>
+                    <!-- グラフ -->
+                    <div class="graph fade-in fade-in-down">
+                        <div class="bar bar41">大豆もやし</div>
+                        <div class="bar bar42">黒豆もやし</div>
+                        <div class="bar bar43">緑豆もやし</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about_h3">そんな栄養たっぷりなもやしを<span>たくさん食べて</span>健康になろう！ダイエットにも<span>効果抜群！</span></div>
+        </section>
+        <!-- もやしの生産工程 -->
+        <section class="about">
+            <div id="about_make" class="about_h2">
+                もやしができるまで
+            </div>
+            <div class="make fade-in fade-in-down">
+                <div class="make_h3">1.浸漬</div>
+                <div class="make_flex">
+                    <div class="make_p">趣旨を洗浄し、表面殺菌した後、仕込みのコンテナに入れ、発芽促進のため所定の時間、温水に漬け込みます。</div>
+                    <div class="image"><img src="images/moyashi1.png" alt="浸漬"></div>
+                </div>
+            </div>
+            <div class="make fade-in fade-in-down">
+                <div class="make_h3">2.育成</div>
+                <div class="make_flex">
+                    <div class="make_p">浸漬が終ったら、温水を抜き、暗室で栽培が始まります。栽培期間中は、あらかじめ設定したプログラムに基づいた環境下で育てられます。栽培には化学肥料を必要としません。</div>
+                    <div class="image"><img src="images/image.jpg" alt="浸漬"></div>
+                </div>
+            </div>
+            <div class="make fade-in fade-in-down">
+                <div class="make_h3">3.洗浄および脱水</div>
+                <div class="make_flex">
+                    <div class="make_p">こうして育てられたもやしを、豊富な地下水を使って種子の殻を取り除きながら洗浄します。最後に、もやしの表面に付着している水分を除去します。この工程では、もやしの鮮度を維持するため、できるだけ手早く衛生的に処理することと、もやしを傷つけたり折ったりしないよう細心の注意がはらわれています。</div>
+                    <div class="image"><img src="images/moyashi2.jpg" alt="浸漬"></div>
+                </div>
+            </div>
+            <div class="make fade-in fade-in-down">
+                <div class="make_h3">4.袋詰め</div>
+                <div class="make_flex">
+                    <div class="make_p">洗浄、脱水の終ったもやしは、自動的に計量、袋詰めされます。包装されたもやしは、冷蔵車でお客様へ届けられます。</div>
+                    <div class="image"><img src="images/moyashi3.jpg" alt="浸漬"></div>
+                </div>
+            </div>
+        </section>
+        <!-- 個性強いもやし -->
+        <section class="about">
+            <div id="about_unique" class="about_h2">珍しいもやしって知ってる？？</div>
+            <div class="unique_flex">
+                <div class="unique_moyashi1">
+                    <div class="unique_h3">大鰐温泉もやし</div>
+                    <div class="unique_p">青森県の中南地域に位置する大鰐町には、古くから伝わる幻の冬野菜「大鰐温泉もやし」があります。 津軽三代藩主・信義公が大鰐で湯治する際は必ず献上したとされております。 秘伝の大鰐温泉もやしは、 独特の芳香とシャキシャキとした歯触り、味の良さ、品質の高さで人気が高い大鰐町自慢の味です。</div>
+                    <img src="images/onsenmoyashi_1.jpg" alt="">
+                    <div class="unique_a"><a href="https://item.rakuten.co.jp/aomoriyagahonz/wac001001/">購入はこちらから</a></div>
+                </div>
+                <div class="unique_moyashi2">
+                    <div class="unique_h3">ピーナッツもやし</div>
+                    <div class="unique_p">ピーナッツもやしは名前のごとく、ピーナッツのスプラウトです。 茎は茶系の白色で、豆の部分は茶系のクリーム色をしています。 豆もやしのような形状ですが、豆もやしよりかなり太いですよ。 食べ応えのあるシャキシャキ食感なと、ピーナッツ味のような、ほんのり甘みが特長です。</div>
+                    <img src="images/nattumoyashi.jpg" alt="">
+                    <div class="unique_a"><a href="https://poke-m.com/products/290229?utm_source=cpc&utm_medium=google&utm_campaign=smt-shopping&utm_content=vegetables&utm_source=cpc&utm_medium=google&utm_campaign=p-max&gclid=CjwKCAiAuOieBhAIEiwAgjCvcnjXZc8G9URK4tr6xBrvrCgCGdWoWsXUD5pRAx5B40PXOFLhq3MCMRoChyIQAvD_BwE">購入はこちらから</a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_link">
+            <div class="a"><a href="index.html">Bean Sprouts</a></div>
+            <ul class="footer_ul">
+                <li><a href="recepi.html">もやしレシピ</a></li>
+                <li><a href="aboout.html">もやしについて</a></li>
+                <li><a href="farmer.html">農家の現状</a></li>
+                <li><a href="https://search.rakuten.co.jp/search/mall/%E3%82%82%E3%82%84%E3%81%97">もやし購入</a></li>
+            </ul>
+        </div>
+        <small id="small">&copy; Aチーム</small>
+    </footer>
+    <script src="js/moyashi.js"></script>
+
+</body>
+</html>
