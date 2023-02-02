@@ -2,21 +2,24 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="./css/index.css">
-<link rel="stylesheet" href="./css/style.css">
+
 <meta name="description" content="最新技術と自然との調和を目指す">
 <meta name="viewport" content="width=device-width">
     
 <title>もやしーーー</title>
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/index.css">
  
 </head>
 <body>
   
-<header class="site-header">
-    <div class="nav_header_wrapper">
-		<p><video src="images/Bean sprouts.mp4"
-		 poster="images/rogo.png" width="120" height="120"autoplay loop></video>
-    </a></p>
+  <header id="header" class="site-header">
+    <div  class="nav_header_wrapper">
+      <img class="nav_rogo" src="images/rogo.png" alt="ロゴ">
+        <!-- <p><video src="images/Bean sprouts.mp4"
+         poster="images/rogo.png" width="120" height="120"autoplay loop></video>
+    </a></p> -->
         <div class="nav_start">
           <h1>bean sprouts</h1>
         </div>
@@ -27,8 +30,8 @@
             </button>
             <ul class="nav_wrapper">
               <li class="nav_item active">
-                <a href="#">
-					<svg
+                <a class="header_a" href="index.html">
+                    <svg
                     viewBox="0 0 24 24"
                     width="24px"
                     height="24px"
@@ -50,11 +53,11 @@
                       style="fill: currentColor"
                     ></path>
                   </svg>
-                  <span>ホーム</span>
+                  <span class="nav_a">ホーム</span>
                 </a>
               </li>
               <li class="nav_item">
-                <a href="#">
+                <a class="header_a" href="about.html">
                   <svg
                     viewBox="0 0 24 24"
                     width="24px"
@@ -77,11 +80,11 @@
                       style="fill: currentColor"
                     ></path>
                   </svg>
-                  <span>もやしについて</span>
+                  <span class="nav_a">もやしについて</span>
                 </a>
               </li>
               <li class="nav_item">
-                <a href="#">
+                <a class="header_a" href="Recipe.html">
                   <svg
                     viewBox="0 0 24 24"
                     width="24px"
@@ -104,11 +107,11 @@
                       style="fill: currentColor"
                     ></path>
                   </svg>
-                  <span>もやしレシピ</span>
+                  <span class="nav_a">もやしレシピ</span>
                 </a>
               </li>
               <li class="nav_item">
-                <a href="#">
+                <a class="header_a" href="farmer.html">
                   <svg
                     viewBox="0 0 24 24"
                     width="24px"
@@ -131,15 +134,21 @@
                       style="fill: currentColor"
                     ></path>
                   </svg>
-                  <span>生産者の現状</span>
+                  <span class="nav_a">農家の現状</span>
                 </a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
-</header>
-    <!-- Header End -->
+</header>   
+  <!-- Header End -->
+
+
+
+
+
+  
 <div id="top_image" class="fadeIn">
 
 </div>

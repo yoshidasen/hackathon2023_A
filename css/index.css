@@ -1,20 +1,35 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
-address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
-ul{list-style:none;}
-table{border-collapse:collapse;border-spacing:0;}
-caption,th{text-align:left;}
-q:before,q:after{content:'';}
-object,embed{vertical-align:top;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+  margin:0;padding:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var{
+  font-style:normal;
+}
+ul{
+  list-style:none;
+}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+caption,th{
+  text-align:left;
+}
+q:before,q:after{
+  content:'';
+}
+object,embed{
+  vertical-align:top;
+}
 legend{display:none;}
 h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 html {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 body {
-    position: relative;
-    background-color:#E8D98A;
+  position: relative;
+  background-color:#E8D98A;
 }
 /*--------------------
 吹き出しを作る
@@ -24,6 +39,8 @@ body {
     position: relative;
     display:flex;
     align-items: center;
+    margin-left:13%;
+    margin-right: 13%;
     }
     .balloon:before,.balloon:after {
     /* clear: both; */
@@ -151,13 +168,14 @@ p a {
         font-size: 0;
         background: url(./images/Bean\ sprouts.mp4) left top/15px auto no-repeat;
         }
-a{
+/* a{
     color:  #624222;
     text-decoration: none;
 }
-a:hover, .active{
+a:hover{
   text-decoration: underline;
-}
+} */
+/* 
 a:active, a:focus,input:active, input:focus{outline:0;}
   .site-header {
     position: fixed;
@@ -238,7 +256,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
         right: 1rem;
         top: 1rem; } }
   .inactive-item {
-    opacity: 0; }
+    opacity: 0; } */
 .fadeIn{
     animation-name:fadeInAnime;
     animation-duration:1s;
@@ -247,10 +265,10 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 #top_image{
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     background: url(../images/top_moyashi2.png) no-repeat;
     background-size: contain;
-    background-position: 0px 160px;
+    /* background-position: 0px 160px; */
 }
     @keyframes fadeInAnime{
       from {
