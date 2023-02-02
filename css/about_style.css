@@ -30,7 +30,7 @@ body{
 }
 
 /*========== TOPへ戻るボタン ===========*/
-.page_top_btn {
+#about .page_top_btn {
   position: fixed;
   bottom: 10px;
   right: 20px;
@@ -46,7 +46,7 @@ body{
   border: #633B3B 1px solid;
   border-bottom: #633B3B 3px solid;
 }
-.page_top_btn:hover{
+#about .page_top_btn:hover{
   background-color: #CCDB51;
   transition: 0.2s;
   border-bottom: #633B3B 1px solid;
@@ -325,7 +325,8 @@ body{
   .bar43{
     max-width: 30%;
   }
-  span{
+  
+  .about span{
     color: rgb(255, 0, 0);
     font-weight: bold;
     
