@@ -1,0 +1,94 @@
+.recipe_grid {
+    justify-items: center;
+    display: grid;
+    gap: 26px;
+   
+    grid-template-columns: repeat(3, 1fr);
+   
+    height: auto;
+  }
+  .recipe_grid img {
+    box-shadow: 10px 10px 0 #CCDB51;
+  
+     grid-template-columns: repeat(3, 1fr);
+      margin-top: 6%;
+      margin-bottom: 50px;
+  transition: transform .2s ease;
+    object-fit: cover;
+    display: inline-block;
+    filter: saturate(150%);
+  }
+  .recipe_grid img:hover {
+    transform: scale(1.03);
+    }
+  .recipe_kaeru{
+   
+    display: flex;
+  
+  }
+  .recipe_kaeru img {
+    position:absolute; top:8.2%; right:9%;
+  }
+  .recipe_kaeru2{
+    display: flex;
+  }
+  .recipe_kaeru2 img {
+    position:absolute; top:5.5%; right:31%;
+  }
+  
+  .recipe_kaeru .text {
+    padding: 0;
+  }
+  
+  body.recipe {
+  
+    background-color: #E8D98A;
+    
+     background-position: center center;
+     
+     background-repeat: no-repeat;
+      
+     background-attachment: fixed;
+      
+     background-size: cover;
+      
+      font-family:'メイリオ', 'Meiryo', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #633B3B;
+      }
+      .grid img:hover {
+          transform: scale(1.03);
+          }
+  .recipe{
+      font-size: 110%;
+      /* font-weight: 600; */
+    line-height: 1.4em;
+    filter: drop-shadow(0px 2px 2px rgba(147, 183, 191, 0.219));
+  }
+  a.recipe{
+   
+      font-size: 105%;
+      /* font-weight: 600; */
+    line-height: 1.4em;
+    filter: drop-shadow(0px 2px 2px rgba(147, 183, 191, 0.219));
+      color: #633B3B;
+      
+    
+  border-width:5px;
+  border-bottom:solid;
+  border-color:D9A25F;
+  border-width:5px;
+  
+  }
+  
+  .recipe_title1{
+      font-size: 250%;
+  }
+  .recipe_title2{
+    font-size: 250%;
+   
+  border-bottom:solid;
+  border-color:D9A25F;
+  border-width:5px;
+  }
