@@ -92,9 +92,8 @@ footer {
   padding-bottom: 94px;
 }
 
-.footer_link p {
-  font-size: 62px;
-  padding-bottom: 34px;
+.footer_ul {
+  padding-top: 34px;
 }
 
 .footer li {
@@ -102,10 +101,16 @@ footer {
   padding-bottom: 34px;
 }
 
-.footer a {
+.footer_headline {
   text-decoration: none;
   color: #633B3B;
   font-size: 141.5%;
+}
+
+.footer_title {
+  text-decoration: none;
+  color: #633B3B;
+  font-size: 62px;
 }
 
 footer small {
@@ -350,17 +355,20 @@ footer {
   padding-bottom: 5%;
 }
 
-.footer_link p {
-  font-size: 150%;
-  padding-bottom: 3%;
+.footer_ul {
+  padding-top: 3%;
 }
 
 .footer li {
   padding-bottom: 3%;
 }
 
-.footer a {
+.footer_headline {
   font-size: 80%;
+}
+
+.footer_title {
+  font-size: 150%;
 }
 
 footer small {
