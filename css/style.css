@@ -1,4 +1,7 @@
 @charset "utf-8";
+ul {
+  padding: 0;
+}
 
  #header{
   z-index: 999;
@@ -149,7 +152,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 footer {
     background-color: #F2D6B3;
     text-align: center;
-    height: 670px;
+    /* height: 670px; */
     padding-top: 101px;
     padding-left: 81px;
   }

@@ -6,7 +6,6 @@ html {
 }
 
 .farmer_body {
-  font-size:1.4rem;
   color: #633B3B;
   background-color: #E8D98A;
 }
@@ -16,6 +15,7 @@ html {
 } 
 
 .farmer_conteiner {
+  font-size:1.4rem;
   margin-left: 5%;
   margin-right: 5%;
   padding-bottom: 3%;
