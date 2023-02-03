@@ -35,6 +35,7 @@ body {
 吹き出しを作る
 --------------------*/
 .balloon {
+    margin-top: 5%;
     margin-bottom: 2em;
     position: relative;
     display:flex;
@@ -68,7 +69,8 @@ body {
     .balloon figure img {
     width: 100%;
     height: 100%;
-    border: 1px solid #aaa;
+    /* border: 1px solid #aaa; */
+    background-color: #F5E2C9;
     border-radius: 50%;
     margin: 0;
     }
@@ -80,34 +82,20 @@ body {
     .balloon-text-right,.balloon-text-left {
     position: relative;
     padding: 20px 20px 50px;
-    border: 10px solid;
+    border: 5px solid #49a262;
     border-radius: 50px;
     max-width: -webkit-calc(100% - 120px);
     max-width: calc(100% - 120px);
     display: inline-block;
     }
     .balloon-text-right {
-        background-color: #00DA00;
+        background-color: #CCDB51;
        }
-       .balloon-text-right:after {
-         position: absolute;
-         content: '';
-         border: 10px solid transparent;
-         border-left: 10px solid #00DA00;
-         top: 30px;
-         right: 20px;
-       }
+
     .balloon-text-left {
         background-color: #CCDB51;
        }
-       .balloon-text-left:after {
-         position: absolute;
-         content: '';
-         border: 10px solid transparent;
-         border-left: 10px solid #CCDB51;
-         top: 15px;
-         right: -19px;
-       }
+
     .balloon-text-right {
     float: left;
     }
@@ -125,7 +113,7 @@ body {
         position: absolute;
         content: '';
         border: 10px solid transparent;
-        border-right: 10px solid #aaa;
+        border-right: 10px solid #49a262;
         top: 60px;
         left: -40px;
         }
@@ -133,7 +121,7 @@ body {
     position: absolute;
     content: '';
     border: 10px solid transparent;
-    border-left: 10px solid #aaa;
+    border-left: 10px solid #49a262;
     top: 60px;
     right: -40px;
     }
