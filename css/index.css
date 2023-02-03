@@ -538,26 +538,24 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 
 /* recipe */
 /* index */
-.top_body {
-	font-size:1.4rem;
-	color: #633B3B;
-	background-color: #E8D98A;
-  }
-  
   .top_recipe {
-	text-align: center;
-	color: #633B3B;
-	padding-left: 5%;
-	padding-right: 5%;
-	  /*yohaku*/
-	  padding-left: 5%;
-	  padding-right: 5%;
-	  padding-bottom: 7%;
+    text-align: center;
+    color: #633B3B;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+      /*yohaku*/
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 7%;
+      
+    flex-flow: column;
   }
   
   .top_recipe p{
 	padding-top: 3%;
 	padding-bottom: 3%;
+  float: none;
   }
   
   .top_recipe_contents {
@@ -584,7 +582,7 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   }
   
   .top_recipe_item h4 {
-	font-size: 85%;
+	font-size: 200%;
 	padding-top: 3%;
 	padding-bottom: 3%;
   }
@@ -596,7 +594,7 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   
   .top_button {
 	display       : inline-block; 
-	font-size     : 120%; 
+	font-size     : 160%; 
 	text-align    : center;     
 	cursor        : pointer;    
 	padding       : 2% 15%;   
@@ -618,7 +616,7 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   @media(max-width: 600px) {
 	/* index */
 	.top_recipe h1 {
-	  font-size: 95%;
+	  font-size: 220%;
 	}
 	
 	.top_recipe p{
